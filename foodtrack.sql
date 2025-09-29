@@ -13,3 +13,10 @@ CREATE TABLE locations(
     FOREIGN KEY(foodtruck) REFERENCES foodtruck(foodtruck_id)
 );
 
+CREATE TABLE orders_items(
+    order_item_id INT PRIMARY KEY,
+    order_id INT,
+    product_id INT,
+    quantity INT
+);
+
