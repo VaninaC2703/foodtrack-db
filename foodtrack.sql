@@ -41,3 +41,6 @@ ALTER TABLE products ADD suppliers INT;
 ALTER TABLE products
 ADD CONSTRAINT fk_products_foodtruck
 FOREIGN KEY(foodtruck_id) REFERENCES foodtruck(foodtruck_id);
+
+alter table locations
+rename column foodtruck to foodtruck_id;
