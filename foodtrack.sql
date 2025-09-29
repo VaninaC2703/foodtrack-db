@@ -27,3 +27,11 @@ CREATE TABLE orders(
     status VARCHAR(255) NOT NULL,
     total DECIMAL(18,2) NOT NULL
 );
+
+CREATE TABLE products(
+    product_id INT PRIMARY KEY,
+    foodtruck_id INT,
+    name VARCHAR(255) NOT NULL,
+    price DECIMAL(18,2) NOT NULL,
+    stock INT
+);
