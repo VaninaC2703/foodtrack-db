@@ -53,3 +53,16 @@ add constraint fk_locations_foodtruck
 foreign key(foodtruck_id) references foodtruck(foodtruck_id)
 on delete set null 
 on update set null;
+
+
+insert into foodtruck 
+	values(1,'Taco Loco','Mexicana','Ciudad de México'),
+		  (2,'Burguer Bros','Americana','Buenos Aires'),
+		  (3,'Macdonald','Americana','Buenos Aires'),
+		  (4,'Mostaza','Americana','Buenos Aires'); ---cada paréntesis hace referencia a una fila----
+		  
+insert into foodtruck(foodtruck_id,name,city) values(6,'Mariscos al paso','Riode Janeiro');
+		  
+insert into foodtruck values(5,'Parrilla al Paso', null,'Córdoba');
+
+
