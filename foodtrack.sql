@@ -20,3 +20,10 @@ CREATE TABLE orders_items(
     quantity INT
 );
 
+CREATE TABLE orders(
+    order_id INT PRIMARY KEY,
+    foodtruck INT,
+    order_date DATE,
+    status VARCHAR(255) NOT NULL,
+    total DECIMAL(18,2) NOT NULL
+);
