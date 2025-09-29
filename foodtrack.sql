@@ -38,9 +38,18 @@ CREATE TABLE products(
 
 ALTER TABLE products ADD suppliers INT;
 
+
 ALTER TABLE products
 ADD CONSTRAINT fk_products_foodtruck
 FOREIGN KEY(foodtruck_id) REFERENCES foodtruck(foodtruck_id);
 
+
 alter table locations
 rename column foodtruck to foodtruck_id;
+
+
+alter table locations 
+add constraint fk_locations_foodtruck
+foreign key(foodtruck_id) references foodtruck(foodtruck_id)
+on delete set null 
+on update set null;
