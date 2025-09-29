@@ -87,7 +87,3 @@ foodtrucks, products, orders, order_items, locations
 ## Autor
 
 Proyecto realizado por **Vanina Cavallin** en su rol de Data Scientist.
-
-d. Establecer claves primarias, foráneas y restricciones (NOT NULL, UNIQUE, etc.).
-
-e. Guardar los scripts .sql en una carpeta /scripts
