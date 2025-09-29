@@ -71,3 +71,11 @@ select * from foodtruck;
 update foodtruck
 	set cuisine_type = 'Comida chatarra'
 		where city = 'Buenos Aires'
+
+
+
+select * from foodtruck order by foodtruck_id asc;
+
+update foodtruck
+	set cuisine_type = 'Argentina'
+		where cuisine_type is null;
