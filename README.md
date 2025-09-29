@@ -1,2 +1,3 @@
 # foodtrack-db
-Aquí diseño el esquema relacional de FoodTrack, una plataforma para gestionar operaciones de foodtrucks en distintos puntos de una ciudad. 
+Repositorio para la base de datos del proyecto **FoodTrack**.  
+Aquí se documenta el diseño, creación y gestión de las tablas necesarias para el seguimiento y control de alimentos.
