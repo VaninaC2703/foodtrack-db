@@ -1,8 +1,9 @@
-1) foodtrack-db
-Repositorio para la base de datos del proyecto **FoodTrack**.  
+## Diseño y creación del esquema
+
+foodtrack-db es el repositorio para la base de datos del proyecto **FoodTrack**.  
 Aquí se documenta el diseño, creación y gestión de las tablas necesarias para el seguimiento y control de alimentos.
 
-## Diseño y creación del esquema
+### Pasos:
 
 a. Analizar los archivos .csv proporcionados:
 . foodtrucks.csv(opens in a new tab)
