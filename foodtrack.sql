@@ -66,3 +66,8 @@ insert into foodtruck(foodtruck_id,name,city) values(6,'Mariscos al paso','Riode
 insert into foodtruck values(5,'Parrilla al Paso', null,'Córdoba');
 
 
+select * from foodtruck;
+
+update foodtruck
+	set cuisine_type = 'Comida chatarra'
+		where city = 'Buenos Aires'
